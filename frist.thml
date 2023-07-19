@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="">
+            <center>
+                <table border="1" bordercolor="red" bgcolor="cyan">
+                    <tr>
+                        <td>
+                            <label for="Name">Person Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label for="age">Age</label>
+                        </td>
+                        <td>
+                            <input type="number" name="age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">Gender</label>
+                        
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="male">Male<br>
+                            <input type="radio" name="gender" value="female">female</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dob">date of Birth</label>
+                        </td>
+                        <td>
+                            <input type="date">
+                        </td>
+                    </tr>
+                        <tr>
+                            <td>
+                                <label for="database">Databses</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="database" value="oracle">oracle</input><br>
+                                <input type="radio" name="database" value="mysql">MySQL</input><br>
+                                <input type="radio" name="database" value="sql server">SQL Server</input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="languages">Languages</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="languages" value="java">Java</input><br>
+                                <input type="checkbox" name="languages" value="C">C</input><br>
+                                <input type="checkbox" name="languages" value="js">JS</input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="ptime">Preferred time</label>
+                            </td>
+                            <td>
+                                <input type="time">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Email</label>
+                            </td>
+                            <td>
+                                <input type="email">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="url">URL</label>
+                            </td>
+                            <td>
+                                <input type="url">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="telephone">Phone number</label>
+                            </td>
+                            <td>
+                                <input type="tel">
+                            </td>
+                        </tr>
+                    
+
+                </table>
+                <input type="submit">
+                <input type="reset">
+            </center>
+        </form>
+    </body>
+</html>
